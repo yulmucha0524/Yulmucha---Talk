@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <link rel="stylesheet" href="css/style.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - Yulmucha Talk</title>
+</head>
+<body id="search-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+    </div>
+        <div class="status-bar__column">
+            <span>10:22</span>
+    </div>
+        <div class="status-bar__column">
+            <span>70%</span>
+            <i class="fa-solid fa-battery-three-quarters"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+    
+    <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__btn">
+            <a class="nav__link" href="friends.html"
+              ><i class="far fa-user fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="chat.html">
+              <span class="nav__notification badge">1</span>
+              <i class="far fa-comment fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="search.html">
+              <i class="fas fa-search fa-2x"></i></a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="more.html">
+              <span class="nav__dot"></span>
+              <i class="fas fa-ellipsis-h fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+  
+    <header class="screen-header">
+        <h1 class="screen-header__title">Search</h1>
+        <div class="screen-header__icon">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
+        </div>
+    </header>
+    
+
+    <main class="main-screen">
+        <div class="icon-row">
+            <div class="icon-row__icon">
+              <i class="fas fa-qrcode"></i>
+              <span>QR Code</span>  
+            </div>
+            <div class="icon-row__icon">
+              <i class="far fa-address-book"></i>
+              <span>Add by Contacts</span>
+            </div>
+            <div class="icon-row__icon">
+              <i class="fas fa-fingerprint"></i>
+              <span>Add by ID</span>
+            </div>
+            <div class="icon-row__icon">
+              <i class="far fa-envelope"></i>
+              <span>Invite</span>
+            </div>
+          </div>
+          <div class="recommended-friends">
+            <h6 class="recommended-friends__title">Recommended Friends</h6>
+            <span>You have no recommended friends.</span>
+          </div>
+
+          <div class="open-chat">
+            <div class="open-chat__header">
+              <h4>Open Chat</h4>
+              <div
+                >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+            </div>
+            <div class="open-post">
+              <div class="open-post__column">
+                <h5 class="open-post__title">#IVE</h5>
+                <h6 class="open-post__hashtags">#IVE#DIVE</h6>
+                <div class="open-post__members">
+                  <img src="img/kimchaewon1.jpg" />
+                  <span class="open-post__member-count">1022 members</span>
+                  <div class="divider"></div>
+                  <span class="open-post__member-status">Active</span>
+                </div>
+              </div>
+              <div class="open-post__column">
+                <div class="open-post__photo">
+                  <img src="img/IVE.jpg" />
+                  <div class="open-post__heart-count">
+                    <i class="fas fa-heart fa-xs"></i><span>925</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </main>
+
+    <div id="no-mobile">
+      <span>Your screen is too big</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/ceb4f9eb3f.js" crossorigin="anonymous">
+    </script>
+</body>
+</html>

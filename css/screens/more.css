@@ -1,0 +1,13 @@
+.user-component-more .icon-row {
+    margin-top: 35px;
+}
+
+.user-AD{
+    margin: 50px;
+}
+
+.user-AD img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
